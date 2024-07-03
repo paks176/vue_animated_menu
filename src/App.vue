@@ -5,18 +5,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
     <MainHeader/>
     <CompetitorsNames/>
+    <AdviceToasts/>
   </div>
 </template>
 
 <script>
 import MainHeader from './components/MainHeader.vue';
 import CompetitorsNames from './components/CompetitorsNames.vue';
+import AdviceToasts from './components/AdviceToasts.vue';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 export default {
   name: 'App',
   components: {
     MainHeader,
-    CompetitorsNames
+    CompetitorsNames,
+    AdviceToasts
   }
 }
 </script>

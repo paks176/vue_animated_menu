@@ -243,7 +243,7 @@ export default {
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
     &__place {
-      margin-top: 0;
+      margin: 0;
       font-size: 24px;
       transition: all 0.3s ease;
     }
@@ -252,8 +252,6 @@ export default {
       text-transform: uppercase;
       transition: all 0.3s ease;
       font-weight: 500;
-      margin-top: 10px;
-      margin-bottom: 10px;
     }
     
     &__time {
@@ -284,6 +282,9 @@ export default {
       & .list-item__date {
         font-size: 48px;
         font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
       }
       
       & button {
