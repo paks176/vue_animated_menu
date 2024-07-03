@@ -1,4 +1,8 @@
-# infomatika_test
+# Vue.js 2 - Animated Menu
+
+Stack: Vue.js 2.6, Vuex, Bootstrap, SCSS
+
+Deployed: https://paks176.github.io/vue_animated_menu/
 
 ## Project setup
 ```
